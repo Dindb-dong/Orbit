@@ -1,0 +1,37 @@
+{
+  "head": "1431c8d",
+  "regressionTests": {
+    "passed": 98,
+    "failed": 0
+  },
+  "debugBuild": "passed",
+  "review": "GPT 6.2 Astra high; code and final five native screenshots; no blocking findings",
+  "runtime": {
+    "head": "1431c8d",
+    "fittingClose": "pass",
+    "overflowRemainsOpen": "pass",
+    "overflowPreciseEvents": 12,
+    "physicalTrackpad": false,
+    "settingsToggleOnOffOn": "pass"
+  },
+  "consoleOAuthCapture": {
+    "apiKeySession": true,
+    "authConfigInheritedUnset": true,
+    "bridgeExit": 0,
+    "defaultNestedConfigExists": false,
+    "syntheticSessionCost": 0.0123
+  },
+  "environmentApiKeyCapture": {
+    "apiKeySession": true,
+    "authConfigInheritedUnset": true,
+    "bridgeExit": 0,
+    "defaultNestedConfigExists": false,
+    "syntheticSessionCost": 0.0123
+  },
+  "notes": [
+    "Session cost inputs and UI provider usage were synthetic. No paid model requests were made.",
+    "Actual Console OAuth login and locally supplied API-key environment authentication were read through installed Claude Code 2.1.328.",
+    "An initial cold auth process exceeded the existing 1.25-second bound; subsequent probes passed. Timeout remains fail-closed.",
+    "Legacy keychain-stored static API-key auth was covered by the fake CLI, not by a real legacy login. Physical trackpad hardware was not exercised."
+  ]
+}
