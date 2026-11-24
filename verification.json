@@ -1,0 +1,65 @@
+{
+  "featureCommit": "c4358f81e48ce6c154cbb66da9e2ea2a71e27b81",
+  "upstreamCommit": "66bebd4c69a6edf35e2635da9cfffa1f9b32ae14",
+  "syncedPRs": [
+    98,
+    99
+  ],
+  "version": "1.8.1 (40)",
+  "aiUsage": {
+    "passed": 106,
+    "failed": 0
+  },
+  "countdownCases": {
+    "150h": "6d",
+    "48h": "2d",
+    "24h": "1d",
+    "23h59m59s": "23h",
+    "48m": "48m"
+  },
+  "settingsSearch": "pass; Windows ranks first at 900 for all four reviewed synonyms",
+  "nonNotchEntriesAndActions": {
+    "count": 354,
+    "matchesLatestMain": true
+  },
+  "homeLayout": "pass",
+  "metadata": "pass",
+  "debugBuild": "pass; optional Tavi helper absent and skipped",
+  "nativeRender": {
+    "countdown": 4,
+    "homeAndSettings": 7,
+    "mode": "hidden windows, isolated test process, synthetic provider fixtures"
+  },
+  "runnerRegression": {
+    "result": "same startup-color failure reproduced on unmodified upstream 66bebd4; no new runner regression identified",
+    "upstreamDebugBuild": "passed",
+    "scope": "own test process and defaults, no app window activation"
+  },
+  "notRun": [
+    "physical trackpad",
+    "calendar permission and physical media controls",
+    "live provider credentials or paid billing"
+  ],
+  "initialAttempts": [
+    "Expected compile failure when day-unit assertions preceded implementation",
+    "Baseline build was initially started from the canonical checkout, stopped immediately, then restarted from the exact upstream worktree"
+  ],
+  "runnerResults": {
+    "branch": {
+      "passed": 22,
+      "failed": 1,
+      "failures": [
+        "FAIL runner started before it was in the menu bar takes the bar's color"
+      ],
+      "startupGlyph": "white 0.32 alpha 1.00 vs freshly measured white 1.00 alpha 0.90"
+    },
+    "upstream": {
+      "passed": 22,
+      "failed": 1,
+      "failures": [
+        "FAIL runner started before it was in the menu bar takes the bar's color"
+      ],
+      "startupGlyph": "white 0.32 alpha 1.00 vs freshly measured white 1.00 alpha 0.90"
+    }
+  }
+}
